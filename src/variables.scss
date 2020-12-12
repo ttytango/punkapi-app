@@ -1,0 +1,38 @@
+// FONTS
+$font-ubuntu: 'Ubuntu', 'Arial', 'Helvetica', sans-serif;
+$font-nunito: 'Nunito', 'Arial', 'Helvetica', sans-serif;
+
+// COLORS
+
+$white: #f6e9e9;
+$black: #181717;
+$color-grey-light: #808080;
+$color-grey-dark: #444545;
+
+$color-primary: #0202ea;
+$color-secondary: #621708;
+$color-tertiary: #01a701;
+
+$single-color-background: hsla(59, 86%, 68%, 1);
+$gradient: linear-gradient(315deg,
+        hsla(59, 86%, 68%, 1) 0%,
+        hsla(70, 67%, 65%, 1) 25%,
+        hsla(85, 53%, 63%, 0.9) 50%,
+        hsla(106, 41%, 60%, 0.8) 75%,
+        hsla(134, 36%, 53%, 0.7) 100%);
+
+// SPACINGS
+
+$base-spacing: 5px;
+
+// MIXINS
+
+@mixin clearfix() {
+  &::after {
+    display: table;
+    content: "";
+    clear: both;
+  }
+}
+
+

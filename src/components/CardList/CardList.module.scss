@@ -1,0 +1,14 @@
+@import "../../variables";
+
+.cardList {
+  display: grid;
+  grid-template-rows: repeat(12, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+  gap: 5px;
+  height: 70vh;
+}
+
+.beerContent {
+  height: 50%;
+  width: 50%;
+}
