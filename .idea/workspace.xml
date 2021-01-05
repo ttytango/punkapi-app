@@ -4,23 +4,10 @@
     <list default="true" id="50c46f3c-352b-4913-9045-757044c6a244" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase.json" beforeDir="false" afterPath="$PROJECT_DIR$/firebase.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/Card.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card/Card.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/Card.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardList/CardList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardList/CardList.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardList.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Filters/Filters.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Filters/Filters.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Beers/Beers.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Beers/Beers.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Beers/Beers.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Beers/Beers.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/fa-library.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,11 +53,21 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/untitled8/public/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -85,6 +82,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.deploy" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -104,7 +102,7 @@
       <workItem from="1607901623242" duration="4480000" />
       <workItem from="1607971110106" duration="2413000" />
       <workItem from="1609752144207" duration="11968000" />
-      <workItem from="1609861791294" duration="929000" />
+      <workItem from="1609861791294" duration="4687000" />
     </task>
     <task id="LOCAL-00001" summary="someting">
       <created>1607812893185</created>
