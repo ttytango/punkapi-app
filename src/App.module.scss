@@ -1,7 +1,10 @@
 @import "./variables";
 
-.appNavBar {}
+.appNavBar {
+}
 
 .appMainContent {
   background: $gradient;
+  width: 100%;
+  z-index: -1;
 }

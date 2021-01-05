@@ -3,11 +3,14 @@
 
 .navBar {
   display: flex;
+  width: 100%;
   flex-direction: row;
-  background: $color-grey-light;
+  background: $color-primary;
   flex-wrap: nowrap;
   align-items: stretch;
+  text-align: center;
   justify-content: stretch;
+  box-shadow: 2px 2px 8px $black;
   .navLinkList {
     list-style-type: none;
     display: flex;
@@ -28,14 +31,23 @@
         color: $white;
       }
       &:visited {
-        color: purple;
+        color: red;
       }
       &:hover {
-        color: $color-primary;
+        color: $color-tertiary;
       }
       &:active {
         color: $color-secondary;
       }
     }
+    .punkApiHeading {
+      align-self: flex-start;
+      justify-items: center;
+      font-size: 2rem;
+      margin-left: $base_spacing * 12;
+      margin-top: 20px;
+      color: $color-tertiary;
+    }
   }
 }
+

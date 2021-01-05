@@ -1,0 +1,21 @@
+@import "../../variables";
+
+.filters {
+  width: 95vw;
+  height: 6rem;
+  padding-block: $base-spacing * 4;
+  background: $color-secondary;
+  color: $white;
+  margin: 20px auto;
+  p {
+    padding: $base-spacing * 4;
+  }
+}
+
+.filtersList {
+  list-style-type: none;
+  width: 50%;
+  justify-content: space-between;
+  align-content: space-between;
+  text-align: left;
+}

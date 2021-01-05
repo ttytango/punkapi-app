@@ -1,0 +1,10 @@
+@import "../../variables";
+
+.searchBar {
+  width: 50vh;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-content: space-between;
+  text-align: left;
+  padding: $base-spacing * 2;
+}

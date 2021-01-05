@@ -4,7 +4,7 @@ import styles from "./Home.module.scss";
 const Home = () => {
   return (
     <div className={styles.homeContainer}>
-      <p>Home works</p>
+        <h2>Please navigate to the Beers page</h2>
     </div>
   );
 };

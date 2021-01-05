@@ -12,7 +12,9 @@ const NavBar = () => {
             <Link to="/beers">
                 <li>Beers</li>
             </Link>
+            <h1 className={styles.punkApiHeading}>Punk Api!</h1>
         </ul>
+
     </nav>
   );
 };
