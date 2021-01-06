@@ -1,0 +1,32 @@
+@import "../../variables.scss";
+.innerCounter {
+  background-color: $color-yellow;
+  color: $dark-grey;
+  // height: 200px;
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  wrap: nowrap;
+  align-content: space-around;
+  justify-content: center;
+  overflow: hidden;
+  height: 240px;
+  filter: drop-shadow(2px 3px 2px invert($color-light-green));
+  -webkit-filter: drop-shadow(2px 3px 2px invert($color-light-green));
+  h4 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 2rem;
+  }
+  button {
+    width: 20%;
+    height: 20%;
+    flex-direction: row;
+    margin: $base-spacing;
+    align-self: center;
+    justify-content: space-between;
+  }
+}

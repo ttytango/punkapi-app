@@ -1,0 +1,10 @@
+@import "../../variables.scss";
+.content {
+  position: absolute;
+  max-width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: space-around;
+  background: linear-gradient(to right, rgb(22, 52, 149) 70%, rgba(92, 36, 43, 0.753) 96%);
+}

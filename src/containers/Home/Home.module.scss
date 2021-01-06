@@ -3,4 +3,12 @@
 
 .homeContainer{
   padding: $base-spacing * 4;
+  padding-top: 10rem;
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+  height: 100vh;
+  // margin-top: 105px;
+  width: 100%;
+  background: linear-gradient(to right, rgb(22, 52, 149) 70%, rgba(92, 36, 43, 0.753) 96%);
 }

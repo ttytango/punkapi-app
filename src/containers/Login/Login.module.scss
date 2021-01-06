@@ -1,0 +1,41 @@
+@import "../../variables.scss";
+.loginContent {
+  width: 80vw;
+  max-height: 400px;
+  position: absolute;
+  background: linear-gradient(to right, rgba(155, 146, 17, 0.774) 70%, rgba(61, 128, 216, 0.746) 96%);
+  transform: translate(50%, 50%);
+  filter: hue-rotate(145deg);
+  //top: 50%;
+  right: 50%;
+  width: 50%;
+  margin: 40px 0 10px 0;
+  align-content: center;
+  justify-content: center;
+  box-shadow: $box-shadow;
+  -webkit-transform: translate(50%, 50%);
+  //-moz-transform: translate(50%, 50%);
+  //-ms-transform: translate(50%, 50%);
+  //-o-transform: translate(50%, 50%);
+  display: inline;
+  flex-direction: column;
+  align-content: space-evenly;
+  flex-wrap: nowrap;
+  border-radius: 8px;
+  -moz-transform: translate(50%, 50%);
+  -ms-transform: translate(50%, 50%);
+  -o-transform: translate(50%, 50%);
+  -webkit-filter: hue-rotate(145deg);
+}
+
+h2 {
+  margin: 0 10px;
+  padding: 10px 10px;
+}
+
+.main {
+  height: 100vh;
+  // margin-top: 105px;
+  width: 100%;
+  background: linear-gradient(to right, rgb(22, 52, 149) 70%, rgba(92, 36, 43, 0.753) 96%);
+}

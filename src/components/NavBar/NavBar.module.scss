@@ -1,53 +1,112 @@
-@import "../../variables";
-
-
-.navBar {
+@import "../../variables.scss";
+.navFlex {
+  //padding: 20px;
   display: flex;
-  width: 100%;
   flex-direction: row;
-  background: $color-primary;
-  flex-wrap: nowrap;
-  align-items: stretch;
-  text-align: center;
-  justify-content: stretch;
-  box-shadow: 2px 2px 8px $black;
-  .navLinkList {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-items: stretch;
-    font-size: 1.6rem;
-    line-height: 3.2rem;
-    text-align: center;
-    cursor: pointer;
-
-    a {
-      color: $white;
-      text-decoration: none;
-      padding: $base-spacing * 4;
-      transition: .2s ease-out;
-      &:link{
-        color: $white;
-      }
-      &:visited {
-        color: red;
-      }
-      &:hover {
-        color: $color-tertiary;
-      }
-      &:active {
-        color: $color-secondary;
-      }
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  // justify-items: start;
+  // margin-bottom: 100px;
+  // align-content: center;
+  // flex-grow: 10;
+  // border: 2px solid green;
+  // border: 2px solid green;
+  background: repeating-conic-gradient(from -90deg at 3% -5%, $dark-grey 4% 2deg, $color-light-green 24deg 10%, $color-secondary 112deg 12deg);
+  width: 100%;
+  @media screen and (max-width: 798px) {
+    flex-direction: column;
+  }
+  h3 {
+    color: $color-yellow;
+    @media screen and (max-width: 798px) {
+      mix-blend-mode: difference;
     }
-    .punkApiHeading {
-      align-self: flex-start;
-      justify-items: center;
-      font-size: 2rem;
-      margin-left: $base_spacing * 12;
-      margin-top: 20px;
-      color: $color-tertiary;
+  }
+
+  h3,
+  a {
+    align-content: center;
+    text-decoration: none;
+    transition: all .3s ease;
+
+    &:hover {
+      color: $white;
+    }
+    &:active {
+      opacity: 0.6;
     }
   }
 }
+
+.link {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.title {
+  font-size: 1.6rem;
+  flex-wrap: nowrap;
+  color: $font-heading-color;
+  align-content: space-between;
+  &:hover {
+    filter: hue-rotate(-45deg);
+  }
+}
+
+
+//@import "../../variables";
+//
+//
+//.navBar {
+//  display: flex;
+//  width: 100%;
+//  flex-direction: row;
+//  background: $color-primary;
+//  flex-wrap: nowrap;
+//  align-items: stretch;
+//  text-align: center;
+//  justify-content: stretch;
+//  box-shadow: 2px 2px 8px $black;
+//  .navLinkList {
+//    list-style-type: none;
+//    display: flex;
+//    flex-direction: row;
+//    align-content: center;
+//    justify-items: stretch;
+//    font-size: 1.6rem;
+//    line-height: 3.2rem;
+//    text-align: center;
+//    cursor: pointer;
+//
+//    a {
+//      color: $white;
+//      text-decoration: none;
+//      padding: $base-spacing * 4;
+//      transition: .2s ease-out;
+//      &:link{
+//        color: $white;
+//      }
+//      &:visited {
+//        color: red;
+//      }
+//      &:hover {
+//        color: $color-tertiary;
+//      }
+//      &:active {
+//        color: $color-secondary;
+//      }
+//    }
+//    .punkApiHeading {
+//      align-self: flex-start;
+//      justify-items: center;
+//      font-size: 2rem;
+//      margin-left: $base_spacing * 12;
+//      margin-top: 20px;
+//      color: $color-tertiary;
+//    }
+//  }
+//}
 

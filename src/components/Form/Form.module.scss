@@ -1,0 +1,39 @@
+@import "../../variables.scss";
+.loginForm {
+  background-color: $color-light-green;
+  filter: hue-rotate(-15deg);
+  padding: $base-padding;
+  mix-blend-mode: darken;
+  z-index: 1;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  -webkit-filter: hue-rotate(-15deg);
+}
+
+fieldset {
+  border-style: none;
+  // margin: $base-padding;
+  // margin: 10px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  label,
+  input {
+    width: 80%;
+    align-items: unset;
+    justify-content: center;
+  }
+  p {
+    color: $color-dark-red;
+    font-size: 1rem;
+  }
+  button {
+    padding: 5px 5px;
+    width: 120px;
+    margin: 10px auto;
+    // color-adjust: exact;
+    cursor: pointer;
+    // position: bottom;
+    // flex-wrap: wrap;
+  }
+}

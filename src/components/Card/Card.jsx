@@ -13,7 +13,7 @@ const Card = (props) => {
     } = beer;
 
     const shortenDescription = description =>
-        description.length < 180
+        description.length < 160
             ? description :
             description.substring(0,140) + "...";
 

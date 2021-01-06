@@ -4,11 +4,18 @@
     <list default="true" id="50c46f3c-352b-4913-9045-757044c6a244" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase.json" beforeDir="false" afterPath="$PROJECT_DIR$/firebase.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Filters/Filters.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Filters/Filters.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Beers/Beers.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Beers/Beers.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Card/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/Card.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardList/CardList.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardList/CardList.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Filters/Filters.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Filters/Filters.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Beers/Beers.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Beers/Beers.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Home/Home.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home/Home.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Routes/Routes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Routes/Routes.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -38,7 +46,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/development/everest-portfolio/src/tim-simonson" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -52,6 +60,11 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\masterblaster\WebstormProjects\untitled8\src" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.deploy">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -102,7 +115,10 @@
       <workItem from="1607901623242" duration="4480000" />
       <workItem from="1607971110106" duration="2413000" />
       <workItem from="1609752144207" duration="11968000" />
-      <workItem from="1609861791294" duration="4687000" />
+      <workItem from="1609861791294" duration="5441000" />
+      <workItem from="1609869090645" duration="19048000" />
+      <workItem from="1609923790953" duration="1180000" />
+      <workItem from="1609925944776" duration="1046000" />
     </task>
     <task id="LOCAL-00001" summary="someting">
       <created>1607812893185</created>
@@ -125,7 +141,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607813045335</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="filters merged">
+      <created>1609866721959</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609866721959</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updated .gitignore">
+      <created>1609895580078</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609895580078</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +187,9 @@
     <MESSAGE value="someting" />
     <MESSAGE value="someting3" />
     <MESSAGE value="someting4" />
-    <option name="LAST_COMMIT_MESSAGE" value="someting4" />
+    <MESSAGE value="filters merged" />
+    <MESSAGE value="Updated .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated .gitignore" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

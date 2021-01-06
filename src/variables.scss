@@ -3,16 +3,39 @@ $font-ubuntu: 'Ubuntu', 'Arial', 'Helvetica', sans-serif;
 $font-nunito: 'Nunito', 'Arial', 'Helvetica', sans-serif;
 
 // COLORS
-
-$white: #f6e9e9;
-$black: #181717;
+$white: rgb(226, 213, 213);
+//$white: #f6e9e9;
+//$black: #181717;
+$black: rgba(0, 0, 10, 0.8);
 $color-grey-light: #808080;
-$color-grey-dark: #444545;
+$color-grey-dark-1: #444545;
 
 $color-primary: #0202ea;
-$color-secondary: #621708;
+$color-dark-red: #621708;
 $color-tertiary: #40d763;
+$dark-grey: #282c34;
+$font-heading-color: rgb(45, 227, 233);
+$color-yellow: rgba(158, 159, 221, 0.74);
+$color-secondary: rgb(119, 0, 255);
+$color-light-green: rgba(59, 204, 59, 0.836);
+$primary-border: 2px darken($dark-grey, 10);
 
+%card {
+  height: 400px;
+  min-width: 340px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: -2px -1px 4px 2px rgba(46, 43, 43, 0.741);
+  //border: solid 2px rgb(70, 50, 111);
+  backface-visibility: hidden;
+  background-color: $dark-grey;
+  color: $color-light-green;
+  margin: 20px;
+  -webkit-backface-visibility: hidden;
+}
+
+$base-padding: 10x 20px;
+$box-shadow: 2px 2px 8px $dark-grey;
 $single-color-background: hsla(59, 86%, 68%, 1);
 $gradient: linear-gradient(180deg,
        grey, red);
